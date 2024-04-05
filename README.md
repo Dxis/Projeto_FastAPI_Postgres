@@ -35,7 +35,7 @@ Demonstrar a criação de endpoints RESTful para operações CRUD (Create, Read,
 2. **Instale as dependências listadas no arquivo `requirements.txt`:**
 
     ```bash
-    pip install -r fastapi uvicorn python-dotenv asyncpg
+    pip install fastapi uvicorn python-dotenv asyncpg
     ```
 
 3. **Configure as variáveis de ambiente no arquivo `.env` com as informações do banco de dados PostgreSQL:**
