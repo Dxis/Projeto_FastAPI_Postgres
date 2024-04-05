@@ -1,6 +1,13 @@
 # Projeto FastAPI
 
-Este é um projeto construído com FastAPI que fornece uma API para interagir com um banco de dados PostgreSQL.
+Este é um projeto construído com FastAPI que fornece uma API RESTful para interagir com um banco de dados PostgreSQL. O FastAPI é um framework moderno e de alto desempenho para construir APIs web com Python.
+
+## Objetivo 
+Demonstrar a criação de endpoints RESTful para operações CRUD (Create, Read, Update, Delete) em um banco de dados PostgreSQL, utilizando as capacidades assíncronas do FastAPI e do asyncpg para melhorar o desempenho e a escalabilidade da aplicação.
+
+## Diagrama de Arquitetura
+
+![Diagrama de Arquitetura](Projeto_FastAPI_Postgres.png)
 
 ## Estrutura do Projeto
 
@@ -18,11 +25,29 @@ Este é um projeto construído com FastAPI que fornece uma API para interagir co
 
 ## Como Usar
 
-1. Clone este repositório em sua máquina local.
-2. Certifique-se de ter o Python e o PostgreSQL instalados em sua máquina.
-3. Instale as dependências do projeto executando `pip install -r requirements.txt`.
-4. Configure as variáveis de ambiente necessárias no arquivo `.env`.
-5. Execute o arquivo `main.py` para iniciar o servidor FastAPI.
+1. **Clone este repositório:**
+
+    ```bash
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    ```
+
+2. **Instale as dependências listadas no arquivo `requirements.txt`:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Configure as variáveis de ambiente no arquivo `.env` com as informações do banco de dados PostgreSQL:**
+
+    ```bash
+    CONN_POSTGRESQL=postgres://username:password@localhost:5432/database_name
+    ```
+
+4. **Inicie o servidor:**
+
+    ```bash
+    uvicorn main:app --reload
+    ```
 6. Você pode acessar a documentação da API em `http://localhost:8000/docs`.
 
 ## Contribuição
