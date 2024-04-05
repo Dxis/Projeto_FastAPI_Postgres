@@ -6,9 +6,6 @@ from fastapi.staticfiles import StaticFiles
 # Criar uma instância do FastAPI
 app = FastAPI()
 
-# Monta a pasta 'static' como o diretório raiz para arquivos estáticos
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
 # Rota padrão
 @app.get("/")
 def home():
