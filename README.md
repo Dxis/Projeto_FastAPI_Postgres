@@ -29,13 +29,13 @@ Demonstrar a criação de endpoints RESTful para operações CRUD (Create, Read,
 
     ```bash
     git clone https://github.com/Dxis/Projeto_FastAPI_Postgres.git
-    
+
     ```
 
 2. **Instale as dependências listadas no arquivo `requirements.txt`:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r fastapi uvicorn python-dotenv asyncpg
     ```
 
 3. **Configure as variáveis de ambiente no arquivo `.env` com as informações do banco de dados PostgreSQL:**
