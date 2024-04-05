@@ -28,7 +28,8 @@ Demonstrar a criação de endpoints RESTful para operações CRUD (Create, Read,
 1. **Clone este repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/Dxis/Projeto_FastAPI_Postgres.git
+    
     ```
 
 2. **Instale as dependências listadas no arquivo `requirements.txt`:**
